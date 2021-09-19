@@ -1,67 +1,66 @@
-body {
-  background: #333;
-}
-
-.row {
-  &:nth-child(even) {
-    margin-left: 52px;
-  }
-  &:after {
-    content: '';
-    clear: both;
-    display: table;
-  }
-}
-
-.hex {
-  width: 100px;
-  height: 50px;
-  position: relative;
-  float: left;
-  background: #ff6600;
-  margin-top: 30px;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  transition: all 0.3s ease;
-  &:before {
-    content: '';
-    position: absolute;
-    border-bottom: 30px solid #ff6600;
-    border-right: 50px solid transparent;
-    border-left: 50px solid transparent;
-    top: -30px;
-    transition: all 0.3s ease;
-  }
-  &:after {
-    content: '';
-    position: absolute;
-    border-top: 30px solid #ff6600;
-    border-right: 50px solid transparent;
-    border-left: 50px solid transparent;
-    bottom: -30px;
-    transition: all 0.3s ease;
-  }
-  &:hover {
-    background: darken(#ff6600, 20%);
-    &:before {
-      border-bottom: 30px solid darken(#ff6600, 20%);
-    }
-    &:after {
-      border-top: 30px solid darken(#ff6600, 20%);
-    }
-  }
-}
-
-// audio {
-//   display: none !important;
+// body {
+//   background: #333;
 // }
 
-audio {
-  height: 200px;
-  width: 300px;
-  background: yellow;
-  border-radius: 15px;
-  background-image: url('http://arbordayblog.org/wp-content/uploads/2016/06/tree.jpg');
-  background-size: cover;
-  position: relative;
-}
+// .row {
+//   &:nth-child(even) {
+//     margin-left: 52px;
+//   }
+//   &:after {
+//     content: '';
+//     clear: both;
+//     display: table;
+//   }
+// }
+
+// .hex {
+//   width: 100px;
+//   height: 50px;
+//   position: relative;
+//   float: left;
+//   background: #ff6600;
+//   margin-top: 30px;
+//   margin-bottom: 5px;
+//   margin-right: 5px;
+//   transition: all 0.3s ease;
+//   &:before {
+//     content: '';
+//     position: absolute;
+//     border-bottom: 30px solid #ff6600;
+//     border-right: 50px solid transparent;
+//     border-left: 50px solid transparent;
+//     top: -30px;
+//     transition: all 0.3s ease;
+//   }
+//   &:after {
+//     content: '';
+//     position: absolute;
+//     border-top: 30px solid #ff6600;
+//     border-right: 50px solid transparent;
+//     border-left: 50px solid transparent;
+//     bottom: -30px;
+//     transition: all 0.3s ease;
+//   }
+//   &:hover {
+//     background: darken(#ff6600, 20%);
+//     &:before {
+//       border-bottom: 30px solid darken(#ff6600, 20%);
+//     }
+//     &:after {
+//       border-top: 30px solid darken(#ff6600, 20%);
+//     }
+//   }
+// }
+
+// // audio {
+// //   display: none !important;
+// // }
+
+// audio {
+//   height: 200px;
+//   width: 300px;
+//   border-radius: 15px;
+//   background-image: url('http://arbordayblog.org/wp-content/uploads/2016/06/tree.jpg');
+//   background-size: cover;
+//   position: relative;
+// }
